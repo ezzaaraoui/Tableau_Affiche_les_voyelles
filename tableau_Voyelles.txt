@@ -1,0 +1,17 @@
+algorithme tableau_Voyelles
+
+variable
+	tableau T(6):caractere 
+	i:entier
+
+Debut
+	T(0)<--"a"
+	T(1)<--"o"
+	T(2)<--"i"
+	T(3)<--"u"
+	T(4)<--"y"
+	T(5)<--"e"	
+	pour i <-- 0 a 5 faire 
+		ecrire(T(i))
+	fin pour
+fin
